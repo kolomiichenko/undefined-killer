@@ -1,0 +1,36 @@
+{
+  "name": "undefined-killer",
+  "version": "0.0.1-alpha",
+  "description": "Simple solution to this problem: `TypeError: Cannot set property 'x' of undefined`",
+  "homepage": "https://github.com/kolomiichenko/undefined-killer",
+  "author": {
+    "name"  : "Andrii Kolomiichenko",
+    "email" : "bboywilld@gmail.com"
+  },
+  "contributors": [
+    {
+      "name"  : "Andrii Kolomiichenko",
+      "email" : "bboywilld@gmail.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type" : "MIT",
+      "url"  : "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "keywords": [
+    "undefined-killer",
+    "undefined",
+    "typeof",
+    "property",
+    "setproperty",
+    "object"
+  ],
+  "repository": {
+    "type" : "git",
+    "url"  : "https://github.com/kolomiichenko/undefined-killer.git"
+  },
+  "_id": "undefined-killer@0.0.1-alpha",
+  "readmeFilename": "README.md"
+}
