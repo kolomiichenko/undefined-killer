@@ -5,14 +5,14 @@ You'll be able to set the properties of the specified path even if it did not ex
 
 ## Getting Started
 ```javascript
-var uk = require('undefined-killer');
+require('undefined-killer');
 ```
 
 ## Example
 ```javascript
 var tmpObject = { "a": { "b": 123 } };
 tmpObject.setProperty('a.b.c.d', { e: [1,2,3] });
-console.log(JSON.stringify(tmpObject));
+console.log(JSON.stringify(tmpObject)); // {"a":{"b":{"c":{"d":{"e":[1,2,3]}}}}}
 ```
 
 ## License

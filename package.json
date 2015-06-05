@@ -1,6 +1,6 @@
 {
   "name": "undefined-killer",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-alpha2",
   "description": "Simple solution to this problem: `TypeError: Cannot set property 'x' of undefined`",
   "homepage": "https://github.com/kolomiichenko/undefined-killer",
   "author": {
@@ -25,12 +25,13 @@
     "typeof",
     "property",
     "setproperty",
-    "object"
+    "object",
+    "defaultdict"
   ],
   "repository": {
     "type" : "git",
     "url"  : "https://github.com/kolomiichenko/undefined-killer.git"
   },
-  "_id": "undefined-killer@0.0.1-alpha",
+  "_id": "undefined-killer@0.0.1-alpha2",
   "readmeFilename": "README.md"
 }
