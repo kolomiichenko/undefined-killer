@@ -3,16 +3,23 @@
 Simple solution to this problem: `TypeError: Cannot set property 'x' of undefined`
 You'll be able to set the properties of the specified path even if it did not exist.
 
-## Getting Started
+## Quick examples
 ```javascript
 require('undefined-killer');
-```
 
-## Example
-```javascript
 var tmpObject = { "a": { "b": 123 } };
 tmpObject.setProperty('a.b.c.d', { e: [1,2,3] });
 console.log(JSON.stringify(tmpObject)); // {"a":{"b":{"c":{"d":{"e":[1,2,3]}}}}}
+```
+
+## Download
+
+The source is available for download from
+[GitHub](https://github.com/kolomiichenko/undefined-killer).
+Alternatively, you can install using Node Package Manager (`npm`):
+
+```bash
+  npm install undefined-killer
 ```
 
 ## License
